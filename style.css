@@ -1,0 +1,156 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:monospace;
+}
+body{
+    background-color: rgb(12, 12, 12);
+    color:white;
+}
+header{
+    background-color: black;
+    color:white;
+    position:sticky;
+    top:0;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#logo{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgba(255, 0, 119, 0.794) ;
+    margin:5px;
+}
+#links a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.3rem;
+    padding:10px;
+    margin:5px;
+    font-weight: bold;
+}
+#links a:hover{
+    color:rgb(255, 0, 119);
+}
+#social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+}
+#social a img{
+    width:25px;
+    height:25px;
+    padding:10px;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    height:550px;
+}
+.section1box{
+    display: flex;
+    width:85%;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin:10px;
+}
+.text{
+    padding-bottom: 20px;
+}
+.box_of_dev img{
+    height:320px;
+    width:320px;
+}
+.leftsection{
+    font-size: 2.7rem;
+}
+.purple{
+    color:rgb(230, 12, 114);
+}
+#element{
+    font-size: 2.4rem;
+    color:rgb(230, 12, 114);
+}
+hr{
+    width:90%;
+    margin:auto;
+}
+.about{
+    margin:20px;
+}
+.about .heading1{
+    text-align: center;
+    font-size:1.85rem;
+    font-weight:bolder;
+}
+.about p{
+    text-align: center;
+    font-size: 1.3rem;
+    margin:20px;
+}
+.info{
+    margin-left:30px;
+    margin-right:30px;
+    font-size: 1.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    list-style: none;
+}
+.education{
+    border-radius:20px;
+    box-shadow: 2px 2px rgba(255, 255, 255, 0.661);
+    background-color: rgba(84, 82, 82, 0.318);
+    padding:10px 25px;
+    list-style: none;
+    margin:10px 20px;
+}
+.box2 {
+    margin-bottom: 20px;
+}
+.project{
+    text-align: center;
+    font-size:1.85rem;
+    font-weight:bolder;
+    margin:20px;
+}
+.para2{
+    text-align: center;
+    font-size: 1.3rem;
+    margin:10px;
+}
+.contact{
+    text-align: center;
+    font-size:1.85rem;
+    font-weight:bolder;
+    margin:20px;
+}
+.mail{
+    text-align: center;
+    font-size:1.3rem;
+    color:white;
+    text-decoration: none;
+    margin:20px;
+}
+.box4{
+    margin-bottom: 20px;
+}
+footer{
+    font-size: 1rem;
+    background-color: black;
+    text-align: center;
+    padding:5px;
+}
