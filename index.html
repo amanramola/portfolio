@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Ramola - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="box">
+                <div id="logo">
+                    Aman's Portfolio
+                </div>
+                <div id="links">
+                    <a href="">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#proj">Projects</a>
+                    <a href="#mail">Contact</a>
+                </div>
+                <div id="social">
+                    <a href="https://www.linkedin.com/in/aman-ramola-b2175724b"><img src="linkedin.png"></a>
+                    <a href="https://github.com/amanramola"><img src="github.png"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div>
+        <div class="section1">
+            <div class="section1box">
+                <div class="text">
+                    <div class="leftsection">Hi! This is <span class="purple">Aman R.</span>
+                        <div>& I'm a</div>
+                            <!-- Element to contain animated typing -->
+                            <span id="element"></span>
+                    </div>  
+                </div>
+                <div class="box_of_dev">
+                    <img src="developer.png">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div class="about">
+                <div class="heading1" id="about">About Me</div>
+                    <p>Hi there, My name is <span class="purple">Aman Ramola</span>.<br>I'm a Computer Science Student at Chandigarh University with interest in learning new technologies. I believe that, a positive attitute & hard work brings excellence and create a positive impact in our lives.</p>
+                </div>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="info">
+                <div class="education">
+                    <p class="purple">Education</p>
+                    <ul>
+                        <li>Chandigarh University - Bachelor's degree CS (2023-Present)</li>
+                        <li>Kendriya Vidyalaya - Higher Secondary Education (2020-2022)</li>
+                        <li>Doon Public School - Seconary Education (2007-2020)</li>
+                    </ul>
+                </div>
+                <div class="education">
+                    <p class="purple">Skills</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="box3">
+            <div>
+                <div class="project" id="proj">Projects</div>
+                <p class="para2">For <span class="purple">Projects</span> prefer my:</p>
+                <div id="social">
+                    <a href="https://www.linkedin.com/in/aman-ramola-b2175724b"><img src="linkedin.png"></a>
+                    <a href="https://github.com/amanramola"><img src="github.png"></a>
+                </div>
+            </div>
+            <hr>
+            <div class="box4">
+                <div class="contact" id="mail">Contact Me</div>
+                <p class="mail">Mail at -> amanramola452@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        copyright @ Aman Ramola
+    </footer>
+        <!--CDN-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+   <script>
+       var typed = new Typed('#element', {
+           strings: ['CS Student', 'Programmer','Tech Enthusiast'],
+           typeSpeed: 80,
+       });
+   </script>
+</body>
+</html>
